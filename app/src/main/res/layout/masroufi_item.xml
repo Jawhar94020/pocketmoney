@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="60"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/truc"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="60"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="40" />
+</LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_marginRight="-40dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:id="@+id/argent"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_weight="35"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:id="@+id/dt"
+        android:text="dt"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_weight="35"/>
+</LinearLayout>
